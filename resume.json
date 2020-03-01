@@ -1,20 +1,25 @@
 {
   "basics": {
     "name": "Jolanta Wroniecka",
-    "label": "Autmation Tester",
+    "label": "Frontend Developer",
     "picture": "",
     "email": "wronieckajolanta@gmail.com",
-    "phone": "662 191 921",
-    "website": "https://github.com/jolawro",
-    "summary": "I am a student of Psychology at Jagiellonian University and a junior automation tester. I am interested in learning new technologies, working with great people on significant projects and applying psychology to IT area.",
+    "phone": "576054834",
+    "website": "https://www.linkedin.com/in/jola-wroniecka-583374144/",
+    "summary": "I am a student of Psychology at Jagiellonian University and a junior frontend developer. I am interested in learning new technologies, working with great people on significant projects and applying psychology to IT area.",
     "location": {
-      "address": "Cracow",
+      "address": "",
       "postalCode": "30-126",
       "city": "Cracow",
-      "countryCode": "PL",
-      "region": "Małopolska"
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
+      {
+        "network": "Twitter",
+        "username": "@JolaWroniecka",
+        "url": "https://twitter.com/JolaWroniecka"
+      },
       {
         "network": "Linkedin",
         "username": "Jola Wroniecka",
@@ -25,98 +30,99 @@
   "work": [
     {
       "company": "Pragmatic Coders",
-      "position": "Automation Tester Intern",
-      "website": "https://pragmaticcoders.com/",
-      "startDate": "April 2017",
-      "endDate": "",
-      "summary": "",
+      "position": "Junior Frontend Developer",
+      "website": "",
+      "startDate": "2019-05-01",
+      "endDate": "2019-09-01",
+      "summary": "Work with external API; Create user pool with AWS Cognito and ServerLess framework",
       "highlights": [
-        "Developing automated tests with Java and Selenium",
-        "Preparing testing scenarios for critical funcionalities of applications ",
-        "Manual and exploration testing of applications",
-        "Working as a part of a Scrum team "
+        "JavaScripr",
+        "TypeScript",
+        "Redux",
+        "ServerLess",
+        "Bootstrap",
+        "Styled-Components"
+      ]
+    },
+    {
+      "company": "Pragmatic Coders",
+      "position": "Intern Frontend Developer",
+      "website": "",
+      "startDate": "2018-06-01",
+      "endDate": "2019-05-01",
+      "summary": "Work on intern project - create webpage",
+      "highlights": ["JavaScript", "React", "Gatsby", "Dato-CMS", "AWS"]
+    },
+    {
+      "company": "Pragmatic Coders",
+      "position": "Automation tester",
+      "website": "",
+      "startDate": "2017-04-01",
+      "endDate": "2018-06-01",
+      "summary": "First project with client; First usage of git; Jira; Scrum",
+      "highlights": [
+        "Manual tester",
+        "Selenium",
+        "Cypress",
+        "Xpath and CSS selectors",
+        "Exploration testing",
+        "Git",
+        "Scrum"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "",
-      "area": "Workshops attendee",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "",
-      "gpa": "",
-      "courses": [
-        "Machine Learning in Python",
-        "Good testing practices"
-      ]
-    },
-    {
       "institution": "Jagiellonian University",
-      "area": "Psychology at Faculty of Philology",
-      "studyType": "Student",
-      "startDate": "2014-11-30",
-      "endDate": "2020-11-30",
-      "gpa": "",
-      "courses": []
+      "area": "Psychology",
+      "studyType": "Bachelor",
+      "startDate": "2014-10-01",
+      "endDate": "2020-10-01",
+      "gpa": "4.1",
+      "courses": ["Health Psychology"]
     }
   ],
   "awards": [],
   "publications": [],
   "skills": [
     {
-      "name": "Test Automation",
+      "name": "Web Development",
       "level": "Junior",
-      "keywords": [
-        "",
-        "Selenium, WebDriver",
-        "Xpath and CSS selectors",
-        "Exploration testing"
-      ]
+      "keywords": ["HTML", "CSS", "Javascript", "React", "TypeScript", "Redux"]
     },
     {
-      "name": "Programming",
-      "level": "",
-      "keywords": [
-        "Basic Java, JUnit",
-        "Basic Python",
-        "Git",
-        "Basic Linux"
-      ]
+      "name": "Automation tester",
+      "level": "Junior",
+      "keywords": ["Selenium", "Cypress"]
     },
     {
-      "name": "Work organisation",
-      "level": "",
-      "keywords": [
-        "Working in Scrum",
-        "JIRA",
-        "Teamwork"
-      ]
+      "name": "Soft skils",
+      "level": "Master",
+      "keywords": ["Team work", "Empathy", "Communication skills"]
     }
   ],
   "languages": [
     {
       "language": "English",
       "fluency": "B2+"
-    },
-    {
-      "language": "Polish",
-      "fluency": "Native"
     }
   ],
   "interests": [
     {
-      "name": "Playing instruments",
-      "keywords": [
-        "Playing the alt saxophon",
-        "Playing the piano"
-      ]
+      "name": "Music",
+      "keywords": ["Saxophone", "Piano", "Improvisation"]
     },
     {
       "name": "Cooking",
-      "keywords": []
-    }
+      "keywords": ["Baking for friends", "sugger-less"]
+    },
+    { "name": "Language lerning", "keywords": ["French", "English"] }
   ],
-  "references": []
+  "references": [
+    {
+      "name": "Pragmatic Coders",
+      "reference": "https://pragmaticcoders.com/"
+    }
+  ]
 }
