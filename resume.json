@@ -6,7 +6,7 @@
     "email": "wronieckajolanta@gmail.com",
     "phone": "576054834",
     "website": "https://www.linkedin.com/in/jola-wroniecka-583374144/",
-    "summary": "I am a student of Psychology at Jagiellonian University and a junior frontend developer. I am interested in learning new technologies, working with great people on significant projects and applying psychology to IT area.",
+    "summary": "I am a frontend developer and I finishing student of Psychology at Jagiellonian University. I am interested in learning new technologies, working with great people on significant projects and applying psychological knowladge in to IT area.",
     "location": {
       "address": "",
       "postalCode": "30-126",
@@ -16,9 +16,9 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "@JolaWroniecka",
-        "url": "https://twitter.com/JolaWroniecka"
+        "network": "Github",
+        "username": "@jolawro",
+        "url": "https://github.com/jolawro"
       },
       {
         "network": "Linkedin",
@@ -34,12 +34,12 @@
       "website": "",
       "startDate": "2019-05-01",
       "endDate": "2019-09-01",
-      "summary": "Work with external API; Create user pool with AWS Cognito and ServerLess framework",
+      "summary": "I worked in the blockchain project in which developers and I created the cryptocurrency exchange. We worked with Redux and TypeScripts. I was responsible for adding type models for new functionalities, implement designs from UX designers. To this end, I used the Bootstrap framework and Styled components. And I implemented the language version switch. In the next project I worked on an internal project for the frontend starter. We've created basic functionality for each subsequent React project: login page, user management and user profile. I was responsible for creating the user pool, setting the user profile and changing the settings: email address, username, password. To this end, I used AWS Cognito and Amplify technologies and Serverless framework to write lambdas",
       "highlights": [
         "JavaScripr",
         "TypeScript",
         "Redux",
-        "ServerLess",
+        "Serverless",
         "Bootstrap",
         "Styled-Components"
       ]
@@ -50,7 +50,7 @@
       "website": "",
       "startDate": "2018-06-01",
       "endDate": "2019-05-01",
-      "summary": "Work on intern project - create webpage",
+      "summary": "I worked on internal project on salling website. I created static webpage with Gatsby framework, applying data from Dato-CMS and hosting site with AWS Storage Gateway, Amazon S3, AWS CodeBuild",
       "highlights": ["JavaScript", "React", "Gatsby", "Dato-CMS", "AWS"]
     },
     {
@@ -59,11 +59,13 @@
       "website": "",
       "startDate": "2017-04-01",
       "endDate": "2018-06-01",
-      "summary": "First project with client; First usage of git; Jira; Scrum",
+      "summary": "I worked on a project to organize trips. As a QA, I was responsible for implementing manual tests. Then I wrote automatic tests in JAVA in cooperation with programmers and git. Then I worked on Blockchain project, where I was resposible for impelemnt automatic tests in JavaScript using Cypress.",
       "highlights": [
         "Manual tester",
         "Selenium",
+        "JAVA",
         "Cypress",
+        "JavaScript",
         "Xpath and CSS selectors",
         "Exploration testing",
         "Git",
@@ -80,7 +82,9 @@
       "startDate": "2014-10-01",
       "endDate": "2020-10-01",
       "gpa": "4.1",
-      "courses": ["Health Psychology"]
+      "courses": [
+        "Psychology of Health; Psychology of employees' health; Psychology of coaching; Psychology of goals and self-regulation; Fundamentals of organization management; Psychology of creativity"
+      ]
     }
   ],
   "awards": [],
@@ -89,7 +93,7 @@
     {
       "name": "Web Development",
       "level": "Junior",
-      "keywords": ["HTML", "CSS", "Javascript", "React", "TypeScript", "Redux"]
+      "keywords": ["Javascript", "React", "HTML & CSS", "TypeScript", "Redux"]
     },
     {
       "name": "Automation tester",
@@ -115,9 +119,9 @@
     },
     {
       "name": "Cooking",
-      "keywords": ["Baking for friends", "sugger-less"]
+      "keywords": ["Baking for friends"]
     },
-    { "name": "Language lerning", "keywords": ["French", "English"] }
+    { "name": "Languages", "keywords": ["French", "English"] }
   ],
   "references": [
     {
