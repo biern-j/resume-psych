@@ -73,7 +73,17 @@
       ]
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "organization": "Women in Technology",
+      "position": "Volunteer",
+      "website": "https://womenintechnology.pl/",
+      "startDate": "2020-03-12",
+      "endDate": "2020-06-12",
+      "summary": "description",
+      "highlights": ["Awards"]
+    }
+  ],
   "education": [
     {
       "institution": "Jagiellonian University",
@@ -125,14 +135,8 @@
   ],
   "references": [
     {
-      "name": "Pragmatic Coders",
-      "reference": "https://pragmaticcoders.com/"
-    }
-  ],
-  "privacy-policy": [
-    {
-      "name": "Privacy Policy",
-      "privacy-policy-text": "I hereby give consent for my personal data included in the job offer to be processed for the purposes of recruitment under the Data Protection Act 1997 (Dz. U. z 2002 r. Nr 101, poz. 926 z późn. zm.)"
+      "name": "Wiktor Żołnowski Co- CEO Pragmatic Coders Sp. z o.o.",
+      "reference": "wiktor.zolnowski@pragmaticcoders.com +48 511170013"
     }
   ]
 }
