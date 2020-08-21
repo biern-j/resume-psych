@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimal-ui"
+    />
+
+    <title>Jolanta Wroniecka</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css"
+    />
+
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Lato:400, 700);
+      body {
+        background: #fff;
+        font-family: Lato, sans-serif;
+        margin: 0 0 80px;
+      }
+      a {
+        color: #2ecc71;
+      }
+      a:focus,
+      a:hover {
+        color: #f1c40f;
+        text-decoration: none;
+      }
+      p {
+        line-height: 1.5;
+        margin: 0;
+      }
+      p + p {
+        margin-top: 10px;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        margin-top: 0;
+      }
+      section {
+        margin-top: 30px;
+      }
+      li {
+        line-height: 1.8;
+        list-style: none;
+      }
+      li:before {
+        content: '\f052';
+        float: left;
+        font: 13px Octicons;
+        margin-top: 6px;
+        margin-left: -20px;
+        opacity: 0.1;
+        position: absolute;
+      }
+      blockquote {
+        border-left: 5px solid #e7e9ec;
+        font-size: 14px;
+      }
+      em {
+        color: #95a5a6;
+        font-weight: normal;
+        font-style: normal;
+      }
+      h4 span:first-child {
+        color: #000;
+        font-weight: bold;
+      }
+      .container {
+        max-width: 950px;
+      }
+      .col-sm-6 {
+        margin-bottom: 10px;
+      }
+      .col-sm-12 h4 {
+        margin-top: 50px;
+      }
+      .col-sm-12 + .col-sm-12 {
+        margin-top: 60px;
+      }
+      #header {
+        background: #f4f6f6;
+        padding: 50px 0;
+        margin-bottom: 30px;
+      }
+      #header h2 {
+        color: #95a5a6;
+        font-size: 24px;
+      }
+      #content h3 {
+        color: #f1c40f;
+        font-size: 26px;
+        margin-top: -4px;
+      }
+      #content aside {
+        text-align: right;
+        padding-right: 30px;
+      }
+      #profiles .network {
+        text-transform: capitalize;
+      }
+      #work .position,
+      #volunteer .position {
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+      #education .area {
+        font-weight: bold;
+      }
+      #education .area:before {
+        content: '\f0d7';
+        font: 16px Octicons;
+        margin-right: 6px;
+      }
+      #education .studyType {
+        margin-left: 25px;
+      }
+      #awards .summary,
+      #publications .summary {
+        margin-top: 8px;
+      }
+      #publications .website a:before {
+        content: attr(href);
+      }
+
+      @media (min-width: 480px) {
+        .strike-through {
+          border-top: 1px solid #f4f6f6;
+          height: 20px;
+          margin-top: 12px;
+          margin-bottom: -2px;
+          position: relative;
+        }
+        .strike-through span,
+        .strike-through a {
+          background: #fff;
+          position: absolute;
+        }
+        .strike-through span:first-child {
+          padding-right: 20px;
+          margin-top: -12px;
+        }
+        .strike-through span + span {
+          font-size: 14px;
+          margin-top: -10px;
+          padding-left: 20px;
+          right: 0;
+        }
+      }
+      @media (max-width: 768px) {
+        .col-sm-6:last-child {
+          margin-bottom: 0px;
+        }
+        #content aside {
+          margin-bottom: 20px;
+          padding-right: 0;
+          text-align: left;
+        }
+        #publications .website a:before {
+          content: 'View publication';
+        }
+      }
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 26px;
+        }
+        .date {
+          font-size: 14px;
+          margin-bottom: 5px;
+        }
+        .strike-through span:first-child {
+          margin-bottom: 7px;
+        }
+        .strike-through span {
+          display: block;
+        }
+        #header {
+          margin-bottom: 10px;
+          padding: 40px 0;
+        }
+        #actions {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-sm-push-3">
+            <h1>
+              Jolanta Wroniecka
+            </h1>
+            <h2>
+              Absolwentka Psychologii wydziału Filozoficznego UJ
+            </h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="content" class="container">
+      <section id="contact" class="row">
+        <aside class="col-sm-3">
+          <h3>Kontakt</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <strong>Email</strong>
+              <div class="email">wronieckajolanta@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="row">
+        <aside class="col-sm-3">
+          <h3>O mnie</h3>
+        </aside>
+        <div class="col-sm-9">
+          <p>
+            Jestem studentką Psychologii i chciałabym poszerzyć zakres swoich
+            umiejętności i doświadczeń, zapoznając się z pracą psychologa i
+            innych specjalistów w poradni psychologiczno pedagogicznej. Uważam,
+            że dzięki mojemu dotychczasowemu doświadczeniu i mojej ogromnej
+            chęci podejmowania wyzwań, a także potrzeby ciągłego rozwoju, będę
+            mogła pożytecznie i również z korzyścią dla Państwa, wykorzystać
+            czas, przewidziany na realizację tej praktyki.
+          </p>
+        </div>
+      </section>
+      <section id="profiles" class="row">
+        <aside class="col-sm-3">
+          <h3>Profil</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <strong class="network">
+                Linkedin
+              </strong>
+              <div class="username">
+                <div class="url">
+                  <a
+                    href="https://www.linkedin.com/in/jola-wroniecka-583374144/"
+                  >
+                    Jola Wroniecka
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="row">
+        <aside class="col-sm-3">
+          <h3>Praca</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Pragmatic Coders</span>
+                <span class="date">
+                  2019-05-01 — 2019-09-01
+                </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="https://pragmaticcoder.pl/">pragmaticcoders.pl</a>
+              </div>
+              <div class="position">
+                Junior Frontend Developer
+              </div>
+              <div class="summary">
+                <p>
+                  Dwa lata pracy komercyjnej, dla zewnętrznego klienta i rozwoju
+                  wewnętrznegormy. Było to bardzo pouczające doświadczenie,
+                  ponieważ praca zespołowa i wzajemna pomoc, były codziennością.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="volunteer" class="row">
+        <aside class="col-sm-3">
+          <h3>Wolontariat i Praktyki</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>
+                  Specjalistyczna Poradnia Psychologiczno - Pedagogiczna
+                </span>
+                <span class="date">
+                  2020-02-17 — 2020-02-24
+                </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="https://sppppk.pl/">sppppk.pl/</a>
+              </div>
+              <div class="position">
+                Praktyki psychologiczne
+              </div>
+              <div class="summary">
+                <p>
+                  Dzięki odbytym praktykom w poradni miałam mozliwość poznania
+                  sposobu pracy specjalistów: psychologów, pedagogów oraz
+                  logopedów. Zapoznałam się z narzędziami, które były stosowane
+                  w spotkań z dziećmi oraz dobrymi praktykami pracy z rodzicem i
+                  dzieckiem.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Pragmatic Coders</span>
+                <span class="date">
+                  2019-08-01 — 2016-09-01
+                </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="https://pragmaticcoder.pl/">pragmaticcoders.pl/</a>
+              </div>
+              <div class="position">
+                Praktyki psychologiczne
+              </div>
+              <div class="summary">
+                <p>
+                  100 godzin zegarowych praktyk psychologicznych, w kierunku
+                  psychologii zdrowia pracowników, organizacji oraz HR. Brałam
+                  udział w codziennych spotkaniach zespołów HR, psychologa i
+                  zarządu. Miałam również swój wkład w projektach prowadzonych
+                  przez profesjonalistów.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Waldorfska Szkoła Podstawowa im. Janusza Korczaka</span>
+                <span class="date">
+                  2016-02-01 — 2016-05-01
+                </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="http://www.waldorfskaszkola.pl/">
+                  waldorfskaszkola.pl/
+                </a>
+              </div>
+              <div class="position">
+                Praktyki pedagogiczne
+              </div>
+              <div class="summary">
+                <p>
+                  Praktyki pedagogiczne w wymiarze 120 godzin. Brałam udział w
+                  zajęciach w klasach szkoły podstawowej i gimnazjum.
+                  Organizowałam również zajęcia artystyczne i świetlicowe dla
+                  dzieci.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Krajowe Towarzystwo Autyzmu - Oddział Kraków</span>
+                <span class="date">
+                  2014-11-01 — 2014-12-01
+                </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="http://www.kta.krakow.pl/">kta.krakow.pl/</a>
+              </div>
+              <div class="position">
+                Wolontariusz
+              </div>
+              <div class="summary">
+                <p>
+                  Jako wolontariusz pomagałam opiekunom przy prowadzeniu zajęć i
+                  organizowaniu czasu dla podopiecznych ośrodka. Wraz z
+                  psychologiem uczestniczyłam również w wizytach domowych u
+                  dzieci z Autyzmem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="row">
+        <aside class="col-sm-3">
+          <h3>Edukacja</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Instytut Psychologii Wydziału Fizolofii UJ</span>
+                <span class="date">
+                  2014-10-01 — 2020-10-01
+                </span>
+              </h4>
+              <div class="area">
+                Psychologia zdrowia
+              </div>
+              <div class="studyType">
+                Studia Magisterskie
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>IV Liceum Ogólnokształcące w Częstochowie</span>
+                <span class="date">
+                  2011-09-01 — 2014-07-01
+                </span>
+              </h4>
+              <div class="area">
+                Profil: biologiczno-chemiczny
+              </div>
+              <div class="studyType">
+                Liceum Ogólnokształcące
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="row">
+        <aside class="col-sm-3">
+          <h3>Umiejętności</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Umiejętności społeczne</h4>
+              </div>
+              <ul class="keywords">
+                <li>Praca w grupie</li>
+                <li>Zdolności komunikacyjne</li>
+                <li>Prowadzenie zajęć warsztatowych</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Programowanie</h4>
+              </div>
+              <ul class="keywords">
+                <li>Tworzenie stron internetowych</li>
+                <li>Programowanie</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="languages" class="row">
+        <aside class="col-sm-3">
+          <h3>Języki</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="language">
+                <strong>Angieslki</strong>
+              </div>
+              <div class="fluency">
+                B2+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="interests" class="row">
+        <aside class="col-sm-3">
+          <h3>Zainteresowania</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Psychologia</h4>
+              </div>
+              <ul class="keywords">
+                <li>Psychologia coachingu</li>
+                <li>Psychologia zdrowia</li>
+                <li>Psychologia uczenia się</li>
+                <li>
+                  Psychologia poznawcza: myślenie i rozwiązywanie problemów
+                </li>
+                <li>Psychologia twórczości</li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Programowanie</h4>
+              </div>
+              <ul class="keywords">
+                <li>User Experience</li>
+                <li>Web Designe</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Muzyka</h4>
+              </div>
+              <ul class="keywords">
+                <li>Gra na instrumentach: Saksofon i pianion</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Zdrowie i dieta</h4>
+              </div>
+              <ul class="keywords">
+                <li>Gotowanie i pieczenie</li>
+                <li>Pilates i Joga</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <blockquote class="privace-policy">
+                <p class="name">
+                  <strong>Privacy Policy</strong>
+                </p>
+                <p>
+                  I hereby give consent for my personal data included in the job
+                  offer to be processed for the purposes of recruitment under
+                  the Data Protection Act 1997 (Dz. U. z 2002 r. Nr 101, poz.
+                  926)
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
